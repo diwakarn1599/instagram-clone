@@ -1,9 +1,15 @@
 .post
 {
     background-color: white;
-    max-width: 500px;
+    max-width: 600px;
     border: 1px solid lightgray;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+.post_like
+{
+    display: flex;
+    padding: 10px;
 }
 
 .post_image{
@@ -51,4 +57,16 @@
     background-color: transparent;
     border-top : 1px solid lightgray;
 
+}
+.likey
+{
+    margin-left: 13px;
+}
+.bookmark
+{
+    margin-left: 440px;
+}
+.dot
+{
+    margin-left: 400px;
 }

@@ -13,7 +13,7 @@
   z-index: 1;
   background-color:white;
   object-fit: contain;
-  padding:20px;
+  padding:5px;
   border-bottom: 1px solid lightgray;
   display:flex;
   justify-content: space-between;
@@ -21,8 +21,41 @@
 }
 .app_headerImage
 {
-  width:100px;
+ 
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 8px;
+  height: 60px;
   
+  
+}
+.logoss
+{
+  margin-left:20px;
+  margin-top: 3px;
+  padding: 0px;
+  font-size: 40px;
+}
+.app_header_input
+{
+  width: 150px;
+  height: 17px;
+  margin-top: 3px;
+  margin-left: 0px;
+  
+  -webkit-appearance: none;
+    /* font-size: 14px; */
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: solid 1px #dbdbdb;
+    border: solid 1px rgba(var(--b6a,219,219,219),1);
+    border-radius: 3px;
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    outline: 0;
+    padding: 3px 10px 6px 40px;
+    z-index: 2;
+
 }
 .app_signup{
   display: flex;
@@ -32,9 +65,20 @@
   {
     padding: 30px;
     display: flex;
-    justify-content: center;
+    margin-left: 180px;
   }
   .app_postsRight
   {
-    margin-left: 60px;
+    margin-left: 460px;
+    width:170px;
+    height: 90px;
+    border-color:3px solid black;
   }
+  .app_header_logo
+  {
+    height: 30px;
+    margin-left: 200px;
+    margin-right: 0px;
+  margin-top: 8px;
+  }
+  

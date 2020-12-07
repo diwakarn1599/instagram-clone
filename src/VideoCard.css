@@ -1,0 +1,14 @@
+.videoCard_player
+{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+}
+.videoCard
+{
+    width:100%;
+    height: 100%;
+    scroll-snap-align: start;
+    position: relative;
+    border: 1px solid black;
+}
